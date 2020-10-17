@@ -22,13 +22,24 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body>
+  <body onload = "restore()">
+
+
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
+
     <div class="container">
+      <div class = "time-block">8:00 am
+          <h3 id= "savedappt">previously saved appt</h3>
+        <textarea type= "text" name="appointment" id="appointment" cols="75" rows="2" class="forms-control "></textarea>
+        
+         <button class="btn btn-primary" type="submit" onclick="saveAppt()">Save my appointment</button>
+      </div>
+
+      </div>
       <!-- Timeblocks go here -->
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
