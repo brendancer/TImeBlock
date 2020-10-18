@@ -3,6 +3,17 @@ var date = moment().format("LLLL");
 console.log(Date);
 document.getElementById("currentDay").textContent = date;
 
+//attach a time value to each timebox in order to compare with current time.
+var timeblocks = document.querySelectorAll(".time-block");
+console.log(timeblocks);
+
+var tbTime = moment()
+  .startOf("day")
+  .add([1] + 8, "hours")
+  .format("LLLL");
+
+console.log(tbTime);
+
 // get appointment text entered into textarea and connect it to time id
 
 $(".sbtn").on("click", function () {
@@ -18,11 +29,17 @@ $(".sbtn").on("click", function () {
   }
 });
 
-// //load the saved data from local storage
+//load saved data back from local storage back into new timeblocks
 
-// function restore() {
-//   var oldappt = localStorage.getItem("appt");
-//   if (appt != null)
-//     document.getElementById("savedAppt").innerHTML = "Don't Forget" + oldappt;
-//   console.log(oldappt);
-// }
+$("#hour1 .appointment").val(localStorage.getItem("hour8"));
+$("#hour2 .appointment").val(localStorage.getItem("hour9"));
+$("#hour3 .appointment").val(localStorage.getItem("hour10"));
+$("#hour4 .appointment").val(localStorage.getItem("hour11"));
+$("#hour5 .appointment").val(localStorage.getItem("hour12"));
+$("#hour6 .appointment").val(localStorage.getItem("hour13"));
+$("#hour7 .appointment").val(localStorage.getItem("hour14"));
+$("#hour8 .appointment").val(localStorage.getItem("hour15"));
+$("#hour9 .appointment").val(localStorage.getItem("hour16"));
+$("#hour10 .appointment").val(localStorage.getItem("hour17"));
+
+//Assign readable time id to each timeblocks
