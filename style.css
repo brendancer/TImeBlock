@@ -21,7 +21,7 @@ textarea {
   border-bottom: 10px solid black;
 }
 
-.description {
+.appointment {
   white-space: pre-wrap;
 }
 
@@ -34,6 +34,7 @@ textarea {
   border-style: solid;
   border-width: 2px;
   border-color: black;
+  color: beige;
 }
 
 .row {
@@ -49,12 +50,12 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
-  color: white;
+  background-color: tan;
+  color: tan;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: rosybrown;
   color: white;
 }
 
