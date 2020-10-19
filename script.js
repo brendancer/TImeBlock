@@ -1,9 +1,9 @@
-//Insert Date
+//Insert Today's date in Jumbotron -------------------------------------
 var date = moment().format("LLLL");
 console.log(Date);
 document.getElementById("currentDay").textContent = date;
 
-//determining if timeblock is past present or future-------------------------------------------------------------------
+//determining if timeblock is past, present, or future and colorcoding-------------------------------------------------------------------
 
 //iterating through the timeblocks
 $(".time-block").each(function () {
@@ -16,7 +16,7 @@ $(".time-block").each(function () {
   console.log(timeblockVal);
   console.log(currentTime);
 
-  //comparing the timeblock hour to the current hour
+  //comparing the timeblock hour to the current hour and assigning a class
   if (timeblockVal < currentTime) {
     ppf = "past";
     $(this).addClass("past").removeClass("present").removeClass("future");
@@ -33,7 +33,7 @@ $(".time-block").each(function () {
   }
 });
 
-// get appointment text entered into textarea and connect it to time id
+// get appointment text entered into textarea and connect it to time id----------
 
 $(".saveBtn").on("click", function () {
   var appt = $(this).siblings(".appointment").val();
@@ -48,7 +48,7 @@ $(".saveBtn").on("click", function () {
   }
 });
 
-//load saved data back from local storage back into new timeblocks
+//load saved data back from local storage back into new timeblocks------------------
 
 $("#hour-8 .appointment").val(localStorage.getItem("hour-8"));
 $("#hour-9 .appointment").val(localStorage.getItem("hour-9"));
@@ -61,7 +61,8 @@ $("#hour-15 .appointment").val(localStorage.getItem("hour-15"));
 $("#hour-16 .appointment").val(localStorage.getItem("hour-16"));
 $("#hour-17 .appointment").val(localStorage.getItem("hour-17"));
 
-//clear button
+//clear button------------------------------------------------------------------------
+
 $("#clrBtn").on("click", function () {
   window.localStorage.clear();
   window.location.reload();
