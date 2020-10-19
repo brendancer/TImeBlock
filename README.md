@@ -33,12 +33,12 @@ THEN the saved events persist
 
 We were provided with starter HTML and CSS.
 
-## Operating Instrucions:\
+## Operating Instrucions:
 
-Upon page load, the user is provided with a block for each hour of the standard workday.
--Click inside the boxes and type in appointments.
---_a textarea box appears to collect your appointment data_
--Click the save button,
---_your appt is stored in local storage_
--To clear previous appointments and start a new day, click "Clear Yesterday's Appointments"
+Upon page load, the user is provided with a block for each hour of the standard workday.  
+-Click inside the boxes and type in appointments.  
+--_a textarea box appears to collect your appointment data_  
+-Click the save button  
+--_your appt is stored in local storage_  
+-To clear previous appointments and start a new day, click "Clear Yesterday's Appointments"  
 --_local storage is cleared and page is reloaded_
