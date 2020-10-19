@@ -1,6 +1,6 @@
 ## My Workday Scheduler
 
-- Homework #5 for UofU Full-Stack Developer Bootcamp \*
+_Homework #5 for UofU Full-Stack Developer Bootcamp_
 
 ![screenshot of work day planner](assets/screeen-shot-project.png)
 This project was created to satisfy these requirements:
