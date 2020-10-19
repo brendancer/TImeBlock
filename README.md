@@ -1,6 +1,7 @@
-My Workday Scheduler
+##My Workday Scheduler
 Homework #5 for UofU Full-Stack Developer Bootcamp
-![screenshot of work day planner]/Users/Goodwin/Documents/webdev/bootcamp/repositories/homework/hw5-Goodwin/assets/screeen-shot-project.png
+
+![screenshot of work day planner]()
 This project was created to satisfy these requirements:
 
 ## User Story
