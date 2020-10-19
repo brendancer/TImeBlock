@@ -4,7 +4,7 @@ console.log(Date);
 document.getElementById("currentDay").textContent = date;
 
 //determining if timeblock is past present or future-------------------------------------------------------------------
-var ppf;
+
 //iterating through the timeblocks
 $(".time-block").each(function () {
   // splitting the id so that an integer can be attached to the id
@@ -35,7 +35,7 @@ $(".time-block").each(function () {
 
 // get appointment text entered into textarea and connect it to time id
 
-$(".sbtn").on("click", function () {
+$(".saveBtn").on("click", function () {
   var appt = $(this).siblings(".appointment").val();
   console.log(appt);
   var time = $(this).parent().attr("id");
@@ -50,15 +50,15 @@ $(".sbtn").on("click", function () {
 
 //load saved data back from local storage back into new timeblocks
 
-$("#hour-1 .appointment").val(localStorage.getItem("hour-8"));
-$("#hour-2 .appointment").val(localStorage.getItem("hour-9"));
-$("#hour-3 .appointment").val(localStorage.getItem("hour-10"));
-$("#hour-4 .appointment").val(localStorage.getItem("hour-11"));
-$("#hour-5 .appointment").val(localStorage.getItem("hour-12"));
-$("#hour-6 .appointment").val(localStorage.getItem("hour-13"));
-$("#hour-7 .appointment").val(localStorage.getItem("hour-14"));
-$("#hour-8 .appointment").val(localStorage.getItem("hour-15"));
-$("#hour-9 .appointment").val(localStorage.getItem("hour-16"));
-$("#hour-10 .appointment").val(localStorage.getItem("hour-17"));
+$("#hour-8 .appointment").val(localStorage.getItem("hour-8"));
+$("#hour-9 .appointment").val(localStorage.getItem("hour-9"));
+$("#hour-10 .appointment").val(localStorage.getItem("hour-10"));
+$("#hour-11 .appointment").val(localStorage.getItem("hour-11"));
+$("#hour-12 .appointment").val(localStorage.getItem("hour-12"));
+$("#hour-13 .appointment").val(localStorage.getItem("hour-13"));
+$("#hour-14 .appointment").val(localStorage.getItem("hour-14"));
+$("#hour-15 .appointment").val(localStorage.getItem("hour-15"));
+$("#hour-16 .appointment").val(localStorage.getItem("hour-16"));
+$("#hour-17 .appointment").val(localStorage.getItem("hour-17"));
 
 //Assign readable time id to each timeblocks
