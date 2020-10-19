@@ -65,10 +65,11 @@ textarea {
 }
 
 .saveBtn {
-  opacity: 1;
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-right: 20px;
+  width: 100px;
+
   background-color: #b19f9e;
   color: white;
 }
