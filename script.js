@@ -4,28 +4,32 @@ console.log(Date);
 document.getElementById("currentDay").textContent = date;
 
 //determining if timeblock is past present or future-------------------------------------------------------------------
-
+var ppf;
 //iterating through the timeblocks
 $(".time-block").each(function () {
   // splitting the id so that an integer can be attached to the id
   var timeblockVal = parseInt($(this).attr("id").split("-")[1]);
 
   //obtaining current time from moment
-  //var currentTime = moment().hours();
-  currentTime = 13;
+  var currentTime = moment().hours();
+
   console.log(timeblockVal);
   console.log(currentTime);
 
   //comparing the timeblock hour to the current hour
   if (timeblockVal < currentTime) {
-    alert("past");
-    $(".time-block").css({ backgroundColor: "tan" });
+    ppf = "past";
+    $(this).addClass("past").removeClass("present").removeClass("future");
+    console.log(ppf);
   } else if (timeblockVal > currentTime) {
-    $(".time-block").css({ backgroundColor: "rosybrown" });
-    alert("future");
+    ppf = "future";
+    $(this).addClass("future").removeClass("present").removeClass("past");
+
+    console.log(ppf);
   } else {
-    alert("present");
-    $(".time-block").css({ backgroundColor: "lightseagreen" });
+    ppf = "present";
+    $(this).addClass("present").removeClass("past").removeClass("future");
+    console.log(ppf);
   }
 });
 
