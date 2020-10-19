@@ -1,5 +1,6 @@
-##My Workday Scheduler
-Homework #5 for UofU Full-Stack Developer Bootcamp
+## My Workday Scheduler
+
+- Homework #5 for UofU Full-Stack Developer Bootcamp \*
 
 ![screenshot of work day planner](assets/screeen-shot-project.png)
 This project was created to satisfy these requirements:
@@ -34,4 +35,3 @@ We were provided with starter HTML and CSS.
 
 Operating instrucions:
 Upon page load, the user is provided with a block for each hour of the standard workday. They can click inside the boxes and type in appointments. After hitting the save button, the appointment is entered into localStorage so that it will persist through a refresh or reload of the page. Because after a day, the user will probably want to remove the previous appointments and start a new day, a "Clear Yesterday's Appointments" is included this button will clear Local storage and refresh the page.
-
