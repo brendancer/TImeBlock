@@ -3,6 +3,7 @@
 _Homework #5 for UofU Full-Stack Developer Bootcamp_
 
 ![screenshot of work day planner](assets/screeen-shot-project.png)
+
 This project was created to satisfy these requirements:
 
 ## User Story
@@ -32,6 +33,22 @@ THEN the saved events persist
 ```
 
 We were provided with starter HTML and CSS.
+
+## Technologies used
+
+- css/html
+- javascript
+- jquery
+- bootstrap##
+- moment.js
+
+### This project can be accessed in the browser at:
+
+https://brendancer.github.io/hw5-Goodwin/
+
+### Access the code at:
+
+https://github.com/brendancer/hw5-Goodwin.git
 
 ## Operating Instrucions:
 
