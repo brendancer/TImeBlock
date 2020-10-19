@@ -23,7 +23,7 @@ textarea {
 
 .appointment {
   white-space: pre-wrap;
-  width: 500px;
+  width: 50rem;
 }
 
 .time-block {
@@ -37,14 +37,8 @@ textarea {
   color: beige;
 }
 
-.row {
-  white-space: pre-wrap;
-  height: 80px;
-}
-
 .hour {
   color: #000000;
-  border-top: #000000;
   padding: 20px;
 }
 
@@ -67,17 +61,11 @@ textarea {
 .saveBtn {
   border: 2px solid black;
   border-radius: 15px;
-  margin-right: 20px;
   width: 100px;
-
   background-color: #b19f9e;
   color: white;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
-  transition: all 0.3s ease-in-out;
-}
 #currentDay {
   background-color: #a16e83;
   color: white;
