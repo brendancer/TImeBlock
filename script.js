@@ -61,4 +61,8 @@ $("#hour-15 .appointment").val(localStorage.getItem("hour-15"));
 $("#hour-16 .appointment").val(localStorage.getItem("hour-16"));
 $("#hour-17 .appointment").val(localStorage.getItem("hour-17"));
 
-//Assign readable time id to each timeblocks
+//clear button
+$("#clrBtn").on("click", function () {
+  window.localStorage.clear();
+  window.location.reload();
+});
