@@ -2,7 +2,7 @@
 
 _Homework #5 for UofU Full-Stack Developer Bootcamp_
 
-![screenshot of work day planner](/assets/Screen Shot 2020-11-06 at 3.16.48 PM (2).png)
+![screenshot of work day planner](/assets/ScreenShot.png)
 
 This project was created to satisfy these requirements:
 
