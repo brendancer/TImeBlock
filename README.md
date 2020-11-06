@@ -39,7 +39,7 @@ We were provided with starter HTML and CSS.
 - css/html
 - javascript
 - jquery
-- bootstrap##
+- bootstrap
 - moment.js
 
 ### This project can be accessed in the browser at:
