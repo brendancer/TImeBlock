@@ -44,11 +44,11 @@ We were provided with starter HTML and CSS.
 
 ### This project can be accessed in the browser at:
 
-https://brendancer.github.io/hw5-Goodwin/
+https://brendancer.github.io/TImeBlock/
 
 ### Access the code at:
 
-https://github.com/brendancer/hw5-Goodwin.git
+https://github.com/brendancer/TImeBlock.git
 
 ## Operating Instrucions:
 
