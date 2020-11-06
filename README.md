@@ -1,4 +1,4 @@
-# My Workday Scheduler
+# TimeBlock
 
 _Homework #5 for UofU Full-Stack Developer Bootcamp_
 
