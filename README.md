@@ -44,11 +44,11 @@ We were provided with starter HTML and CSS.
 
 ### This project can be accessed in the browser at:
 
-https://brendancer.github.io/TImeBlock/
+https://brendancer.github.io/TimeBlock/
 
 ### Access the code at:
 
-https://github.com/brendancer/TImeBlock.git
+https://github.com/brendancer/TimeBlock.git
 
 ## Operating Instrucions:
 
