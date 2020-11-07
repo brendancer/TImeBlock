@@ -37,7 +37,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
-[![timeblock-View.png](https://i.postimg.cc/nLv0JNqC/timeblock-View.png)](https://postimg.cc/gw2vySSW)
+[![timeblock-View.png](https://i.postimg.cc/yNPcnKFX/timeblock-View.png)](https://postimg.cc/8F77PqXj)
 
 ## Technologies used
 
