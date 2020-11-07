@@ -1,8 +1,13 @@
 # TimeBlock
 
-_Homework #5 for UofU Full-Stack Developer Bootcamp_
+_Developed by_
+Brenda Goodwin  brendanced@gmail.com
+
+See the app live at https://brendancer.github.io/TimeBlock/
 
 ![screenshot of work day planner](/assets/ScreenShot.png)
+
+TimeBlock is an app designed to enable the user to record their tasks and appointments during the typical work day on a daily basis. The blocks are color-coded to show past, present, and future hours. User entries will persist each time they visit the app, with an option to clear appointments to start the day fresh. TimeBlock features clean design that is simple, calm, and easy on the eyes.
 
 This project was created to satisfy these requirements:
 
@@ -32,8 +37,6 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-We were provided with starter HTML and CSS.
-
 ## Technologies used
 
 - css/html
@@ -42,13 +45,6 @@ We were provided with starter HTML and CSS.
 - bootstrap
 - moment.js
 
-### This project can be accessed in the browser at:
-
-https://brendancer.github.io/hw5-Goodwin/
-
-### Access the code at:
-
-https://github.com/brendancer/hw5-Goodwin.git
 
 ## Operating Instrucions:
 
@@ -60,3 +56,13 @@ Upon page load, the user is provided with a block for each hour of the standard 
   - _your appt is stored in local storage_
 - To clear previous appointments and start a new day, click "Clear Yesterday's Appointments"
   - _local storage is cleared and page is reloaded_
+  
+  ## License (MIT)
+  
+  Copyright 2020 Brenda Goodwin
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
